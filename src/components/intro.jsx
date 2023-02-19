@@ -21,7 +21,7 @@ const Intro = () => {
       <div className='w-[50%]  sm:w-[100%] py-6 flex flex-col gap-5 justify-center items-center '>
         <div className='text-2xl  flex flex-col gap-2 font-bold font-poppins text-center'>
             <h2 className=' shadow-blue-100'>Hi<span className='text-orange-600'>!</span> There I am</h2>
-            <h2 className='text-7xl text-blue-800 font-sign '>Anurag</h2>
+            <h2 className='text-7xl text-blue-800 sm:font-sign font-mono '>Anurag</h2>
         </div>
         <div className='flex gap-2  justify-center items-center p-2 border-2 border-black rounded-md'> 
               <Crown size={44} color="#b8e458" weight="fill" />

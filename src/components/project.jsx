@@ -4,7 +4,7 @@ const Project = ({item}) => {
   return (
     <div className='inline-block border-2 rounded-md p-1  shadow-xl   mx-4 w-[50%] sm:w-[100%] md:w-[70%] box-border '>
         <div>
-            <img src={item.image} alt={item.name} />
+            <img src={item.image} className="rounded-sm" alt={item.name} />
         </div>
         <div className='mt-5 flex flex-col gap-1 text-center break-words whitespace-pre-wrap'>
             <h2 className='font-bold'>{item.name}</h2>

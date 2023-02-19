@@ -26,8 +26,8 @@ const Contact = () => {
          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center  dark:text-white">Contact Me</h2>
          <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Contact me by filling out the form below.</p>
          <div className='flex flex-col m-auto items-center text-3xl'>
-            <span><i className="fa-solid fa-mobile-screen"></i> : <span className='text-xl'>8299061194</span></span>
-            <span><i className="fa-solid fa-envelope"></i> : <a href="mailto:anuragsrivastav0027@gmail.com" className='text-xl text-blue-400'>anuragsrivastav0027@gmail.com</a></span>
+            <span className='sm:text-sm  '><i className="fa-solid fa-mobile-screen"></i> : <span className=''>8299061194</span></span>
+            <span className='sm:text-sm text-blue-700 '><i className="fa-solid fa-envelope"></i> : <a href="mailto:anuragsrivastav0027@gmail.com" className=' '>anuragsrivastav0027@gmail.com</a></span>
         </div>
       </div>
       <div className='w-[50%] sm:w-[100%]'>

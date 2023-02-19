@@ -87,7 +87,7 @@ const Projects = () => {
         }
     ]
   return (
-    <div id="projects" className=' w-[90%] sm:w-[95%] sm:shadow-sm   box-border relative flex flex-col items-center justify-center  rounded-2xl border shadow-lg p-10 sm:p-5 mt-10 m-auto '>
+    <div id="projects" className=' w-[90%] sm:w-[95%] sm:shadow-sm   box-border relative flex flex-col items-center justify-center  rounded-2xl border shadow-lg p-10 sm:p-1 mt-10 m-auto '>
         <h1 className='text-center text-blue-800 text-4xl  font-bold'>Projects</h1>
          <CaretRight onClick={scrollright} className='cursor-pointer absolute right-0  bg-blue-100 rounded-full p-1' size={36} color="#000000" />
           <div  className=' mt-3  slider scroll-smooth w-full h-full  whitespace-nowrap overflow-x-auto no-scrollbar'>

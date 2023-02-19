@@ -8,9 +8,9 @@ const About = () => {
         <h1 className='text-center text-blue-800 text-4xl   font-bold'>About Me</h1>
         <div className='flex flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row mt-5 '>
             <div className='w-[50%] sm:w-[100%]  p-8 flex flex-col gap-2 justify-center '>
-                  <span className='text-5xl sm:text-4xl font-bold text-violet-500'><Typewriter
+                  <span className='text-5xl sm:text-2xl font-bold text-violet-500'><Typewriter
                     options={{
-                    strings: [" Hi I am Anurag ! "],
+                    strings: [" Hi I am Anurag"],
                     autoStart: true,
                     loop: true,
                     
@@ -31,13 +31,13 @@ const About = () => {
                     <div className='div-header border-b border-gray-100'>
                         <DotsThreeOutline className='ml-4' size={60} color="#b8e458" weight="fill" />
                     </div>
-                    <div className='text-white text-lg p-3'>
-                        <p className='text-blue-300'>function aboutme () &#123; </p>
-                        <p className='text-pink-400'>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; name: "Anurag Srivastav" ;</p>
-                        <p className='text-orange-300 text-sm '> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; education: "Undergrad. at KNIT Sultanpur" ;</p>
-                        <p className=''>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; skill: "Web Developer" ;</p>
-                        <p className='text-yellow-200'>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; skillsLearning: "Web 3.0, React" ;</p>
-                        <p className='text-blue-300'>&#125;</p>
+                    <div className='text-white text-lg sm:text-sm sm:font-extralight p-3'>
+                        <p className='text-blue-300 '>function aboutme () &#123; </p>
+                        <p className='text-pink-400 ml-1 lg:ml-3 xl:ml-3 2xl:ml-5'>name:"Anurag Srivastav" ;</p>
+                        <p className='text-orange-300 ml-1 lg:ml-3 xl:ml-3 2xl:ml-5 '>education:"Undergrad. at KNIT Sultanpur" ;</p>
+                        <p className='ml-1 lg:ml-3 xl:ml-3 2xl:ml-5'>skill:"Web Developer" ;</p>
+                        <p className='text-yellow-200 ml-1 lg:ml-3 xl:ml-3 2xl:ml-5'>skillsLearning:"Web 3.0, React" ;</p>
+                        <p className='text-blue-300 ml-1 lg:ml-3 xl:ml-3 2xl:ml-3'>&#125;</p>
 
                     </div>
                 </div>
