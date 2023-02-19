@@ -33,10 +33,10 @@ const About = () => {
                     </div>
                     <div className='text-white text-lg sm:text-sm sm:font-extralight p-3'>
                         <p className='text-blue-300 '>function aboutme () &#123; </p>
-                        <p className='text-pink-400 ml-1 lg:ml-3 xl:ml-3 2xl:ml-5'>name:"Anurag Srivastav" ;</p>
-                        <p className='text-orange-300 ml-1 lg:ml-3 xl:ml-3 2xl:ml-5 '>education:"Undergrad. at KNIT Sultanpur" ;</p>
-                        <p className='ml-1 lg:ml-3 xl:ml-3 2xl:ml-5'>skill:"Web Developer" ;</p>
-                        <p className='text-yellow-200 ml-1 lg:ml-3 xl:ml-3 2xl:ml-5'>skillsLearning:"Web 3.0, React" ;</p>
+                        <p className='text-pink-400 ml-1 lg:ml-3 xl:ml-3 2xl:ml-5'>name:"Anurag Srivastav";</p>
+                        <p className='text-orange-300 ml-1 lg:ml-3 xl:ml-3 2xl:ml-5 '>education:"Undergrad. at KNIT Sultanpur";</p>
+                        <p className='ml-1 lg:ml-3 xl:ml-3 2xl:ml-5'>skill:"Web Developer";</p>
+                        <p className='text-yellow-200 ml-1 lg:ml-3 xl:ml-3 2xl:ml-5'>skillsLearning:"Web 3.0, React";</p>
                         <p className='text-blue-300 ml-1 lg:ml-3 xl:ml-3 2xl:ml-3'>&#125;</p>
 
                     </div>
