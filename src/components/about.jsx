@@ -19,7 +19,7 @@ const About = () => {
                   <p className=' text-md font-mono break-words'> I am a web developer currently in 2<sup>nd</sup> year pursuing B-Tech in Computer Science and Enginnering from KNIT Sultanpur. </p>
                   
                   <div className='flex gap-5 m-auto'>
-                    <a href="https://drive.google.com/file/d/1vudDrPhmCdolo387w_br9femw87DNCnL/view?usp=sharing" target="blank" className='p-1 font-semibold bg-pink-200 border border-black rounded-lg'>Resume</a>
+                    <a href="https://drive.google.com/file/d/1E8kZZE0KjLXOQJPW9Dph_6MRHwyT9N6r/view?usp=sharing" target="blank" className='p-1 font-semibold bg-pink-200 border border-black rounded-lg'>Resume</a>
                     <button onClick={() =>document.getElementById('contact').scrollIntoView({ behavior: "smooth" })} className='p-1 font-semibold border bg-orange-300 border-black rounded-lg'>Contact Me</button>
                   </div>
                   <div className='text-end font-sign text-4xl font-bold'>

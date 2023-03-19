@@ -9,6 +9,7 @@ import carrental  from "../assets/projectimages/carrental.png"
 import notes  from "../assets/projectimages/notes.png"
 import portfolio  from "../assets/projectimages/portfolio.png"
 import netflix  from "../assets/projectimages/netflix.png"
+import quicksign from "../assets/projectimages/quicksign.png"
 const Projects = () => {
     function scrollleft()
     {
@@ -23,6 +24,14 @@ const Projects = () => {
     const projects=[
         {
             id:1,
+            name:"Quick Sign",
+            description:"OAuth for hassle free signups across multiple platforms",
+            toolsused:"React, Express js, Node Js, MongoDB",
+            image:quicksign,
+            link:"https://github.com/anurag-327/QuickSign"
+        },
+        {
+            id:2,
             name:"Password Manager",
             description:"Password Manager lets user save their passwords securely. ",
             toolsused:"React, Express js, Node Js, MongoDB",
@@ -30,7 +39,7 @@ const Projects = () => {
             link:"https://github.com/anurag-327/PasswordManager"
         },
         {
-            id:2,
+            id:3,
             name:"CHAT APP",
             description:"Real time One to One Chat app.",
             toolsused:"React, Express js, Node Js, MongoDB",
@@ -38,7 +47,7 @@ const Projects = () => {
             link:"https://github.com/anurag-327/Chat-App"
         },
         {
-            id:3,
+            id:4,
             name:"E-Commerce Website",
             description:"E-Commmerce Website built On React.",
             toolsused:"React, Express js, Node Js, MongoDB",
@@ -46,7 +55,7 @@ const Projects = () => {
             link:"https://github.com/anurag-327/E-Commerce"
         },
         {
-            id:4,
+            id:5,
             name:"Codemon",
             description:"Codemon is a web project that helps user compile their code and use platform to solve DSA Problems. ",
             toolsused:"HTML, CSS, JS, EJS, Express js, MongoDB",
@@ -54,7 +63,7 @@ const Projects = () => {
             link:"https://github.com/anurag-327/Codemon"
         },
         {
-            id:5,
+            id:6,
             name:"Car Rental System",
             description:"Car Rental System is a Web Project that helps user to rent out cars for short period. ",
             toolsused:"HTML, CSS, JS, EJS, Express js, MongoDB",
@@ -62,7 +71,7 @@ const Projects = () => {
             link:"https://github.com/anurag-327/Car-Rental-System"
         },
         {
-            id:6,
+            id:7,
             name:"Google Keep Notes",
             description:"This project is a clone of Google keep notes that gives user flexibility of adding, deleting, updating and restoring deleted notes.",
             toolsused:"HTML, CSS, JS, EJS, Express js, MongoDB",
@@ -70,7 +79,7 @@ const Projects = () => {
             link:"https://github.com/anurag-327/Google-Keep-Notes"
         },
         {
-            id:7,
+            id:8,
             name:"My Portfolio site",
             description:"My Portfolio website containing details of my Skils, Projects and Educational Details",
             toolsused:"HTML, CSS, JS",
