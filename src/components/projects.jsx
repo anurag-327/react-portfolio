@@ -28,7 +28,8 @@ const Projects = () => {
             description:"OAuth for hassle free signups across multiple platforms",
             toolsused:"React, Express js, Node Js, MongoDB",
             image:quicksign,
-            link:"https://github.com/anurag-327/QuickSign"
+            code:"https://github.com/anurag-327/QuickSign",
+            link:"https://quick-sign.vercel.app"
         },
         {
             id:2,
@@ -36,7 +37,8 @@ const Projects = () => {
             description:"Password Manager lets user save their passwords securely. ",
             toolsused:"React, Express js, Node Js, MongoDB",
             image:passwordmanager,
-            link:"https://github.com/anurag-327/PasswordManager"
+            code:"https://github.com/anurag-327/PasswordManager",
+            link:"https://my-vault-pm.vercel.app"
         },
         {
             id:3,
@@ -44,7 +46,8 @@ const Projects = () => {
             description:"Real time One to One Chat app.",
             toolsused:"React, Express js, Node Js, MongoDB",
             image:chatapp,
-            link:"https://github.com/anurag-327/Chat-App"
+            code:"https://github.com/anurag-327/Chat-App",
+            link:""
         },
         {
             id:4,
@@ -52,7 +55,8 @@ const Projects = () => {
             description:"E-Commmerce Website built On React.",
             toolsused:"React, Express js, Node Js, MongoDB",
             image:ecommerce,
-            link:"https://github.com/anurag-327/E-Commerce"
+            code:"https://github.com/anurag-327/E-Commerce",
+            link:""
         },
         {
             id:5,
@@ -60,7 +64,8 @@ const Projects = () => {
             description:"Codemon is a web project that helps user compile their code and use platform to solve DSA Problems. ",
             toolsused:"HTML, CSS, JS, EJS, Express js, MongoDB",
             image:codemon,
-            link:"https://github.com/anurag-327/Codemon"
+            code:"https://github.com/anurag-327/Codemon",
+            link:""
         },
         {
             id:6,
@@ -68,7 +73,8 @@ const Projects = () => {
             description:"Car Rental System is a Web Project that helps user to rent out cars for short period. ",
             toolsused:"HTML, CSS, JS, EJS, Express js, MongoDB",
             image:carrental,
-            link:"https://github.com/anurag-327/Car-Rental-System"
+            code:"https://github.com/anurag-327/Car-Rental-System",
+            link:""
         },
         {
             id:7,
@@ -76,7 +82,8 @@ const Projects = () => {
             description:"This project is a clone of Google keep notes that gives user flexibility of adding, deleting, updating and restoring deleted notes.",
             toolsused:"HTML, CSS, JS, EJS, Express js, MongoDB",
             image:notes,
-            link:"https://github.com/anurag-327/Google-Keep-Notes"
+            code:"https://github.com/anurag-327/Google-Keep-Notes",
+            link:""
         },
         {
             id:8,
@@ -84,7 +91,8 @@ const Projects = () => {
             description:"My Portfolio website containing details of my Skils, Projects and Educational Details",
             toolsused:"HTML, CSS, JS",
             image:portfolio,
-            link:"https://github.com/anurag-327/Portfolio-site"
+            link:"https://github.com/anurag-327/Portfolio-site",
+            link:"https://portfolio-anurag-sri.netlify.app"
         },
         {
             id:9,
@@ -92,7 +100,8 @@ const Projects = () => {
             description:"clone of Netflix's UI",
             toolsused:"HTML, CSS, JS",
             image:netflix,
-            link:"https://github.com/anurag-327/Netflix-UI-clone"
+            code:"https://github.com/anurag-327/Netflix-UI-clone",
+            link:""
         }
     ]
   return (

@@ -10,7 +10,13 @@ const Project = ({item}) => {
             <h2 className='font-bold'>{item.name}</h2>
             <h2 className='font-mono'>{item.description}</h2>
             <p className='font-bold   text-blue-800'>Tools Used: {item.toolsused}</p>
-            <a className='p-2 w-[40%] m-auto bg-blue-700 rounded-md text-white' href={item.link} target="blank">Code</a>
+            <div className='w-full flex'>
+              {
+                item.link.length>0&&
+                <a className='p-2 w-[20%] m-auto bg-blue-700 rounded-md text-white' href={item.link} target="blank">Demo</a>
+              }
+                <a className='p-2 w-[20%] m-auto bg-blue-700 rounded-md text-white' href={item.code} target="blank">Code</a>
+            </div>
         </div>
         
     </div>
