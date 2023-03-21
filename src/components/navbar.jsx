@@ -14,7 +14,7 @@ function Navbar({},ref) {
     <div className='flex sm:flex-col shadow-md  justify-between bg-white fixed top-0 w-[100%] p-4 font-poppins z-10 '>
         <div className='flex  gap-20 sm:gap-5 justify-between items-center'>
             <div>
-            <span className='text-3xl font-extrabold'>Portfolio..</span>
+            <span className='text-3xl font-extrabold ml-5 sm:ml-0 '>Anurag</span>
             </div>
             {/* <div >
             <label for="theme" class="theme">
