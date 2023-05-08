@@ -10,6 +10,7 @@ import notes  from "../assets/projectimages/notes.png"
 import portfolio  from "../assets/projectimages/portfolio.png"
 import netflix  from "../assets/projectimages/netflix.png"
 import quicksign from "../assets/projectimages/quicksign.png"
+import imghost from "../assets/projectimages/imghost.png"
 const Projects = () => {
     function scrollleft()
     {
@@ -39,6 +40,15 @@ const Projects = () => {
             image:passwordmanager,
             code:"https://github.com/anurag-327/PasswordManager",
             link:"https://my-vault-pm.vercel.app"
+        },
+        {
+            id:33,
+            name:"ImgHost",
+            description:"ImgHost is a image hoisting platform that provides user links to access the images",
+            toolsused:"Express js, Node Js, MongoDB, Multer, EJS",
+            image:imghost,
+            code:"https://github.com/anurag-327/Imghost",
+            link:""
         },
         {
             id:3,
@@ -91,7 +101,7 @@ const Projects = () => {
             description:"My Portfolio website containing details of my Skils, Projects and Educational Details",
             toolsused:"HTML, CSS, JS",
             image:portfolio,
-            link:"https://github.com/anurag-327/Portfolio-site",
+            code:"https://github.com/anurag-327/Portfolio-site",
             link:"https://portfolio-anurag-sri.netlify.app"
         },
         {

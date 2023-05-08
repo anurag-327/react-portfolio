@@ -7,13 +7,14 @@ import vector6 from "../assets/blob-haikei.png"
 import vector7 from "../assets/layered-waves-haikei.png"
 import boy from "../assets/boy.png"
 import boy2 from "../assets/boy2.png"
+import boy3 from "../assets/boy3.jpeg"
 import {Crown} from "phosphor-react"
 import Typewriter from 'typewriter-effect/dist/core';
 import { LinkedinLogo,GithubLogo } from 'phosphor-react'
 import {TwitterLogo} from "phosphor-react"
 import GitHubIcon from '@mui/icons-material/GitHub';
 
-
+import resume from "../assets/projectimages/Resume_2023.pdf"
 const Intro = () => {
   return (
     <div className='relative top-16  h-auto min-h-[70vh] sm:h-auto sm:bg-contain   overflow-hidden p-2 bg-cover  bg-[url("./assets/vector3.svg")]   sm:bg-[url("./assets/vector1.svg")]  bg-no-repeat  '>
@@ -36,9 +37,8 @@ const Intro = () => {
            
         </div>
         <div className='flex gap-5 '>
-          <a href="https://drive.google.com/file/d/1E8kZZE0KjLXOQJPW9Dph_6MRHwyT9N6r/view?usp=sharing" target="blank" className=' p-2 bg-orange-400 text-white text-xl border-2 rounded-lg shadow-md shadow-gray-400 border-gray-600'><i className="fa-solid text-black mr-2 fa-file"></i>My Resume</a>
+          <a href="https://drive.google.com/file/d/1NUsDZkbOX8gE7udmr6vJvkK6-uIay_0R/view?usp=sharing" target="blank" className=' p-2 bg-orange-400 text-white text-xl border-2 rounded-lg shadow-md shadow-gray-400 border-gray-600'><i className="fa-solid text-black mr-2 fa-file"></i>My Resume</a>
           {/* <button className=' p-1 text-xl border-2 rounded-lg shadow-md shadow-gray-400 border-gray-600'>About Me</button> */}
-          
         </div>
         
       </div>
