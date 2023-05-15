@@ -7,6 +7,7 @@ import Skills from "./components/skills"
 import Footer from './components/footer'
 import Projects from './components/projects'
 import Contact from './components/contact'
+import Notification from './components/notification'
 function App() {
   const aboutRef=useRef(null);
   const skillsRef=useRef(null);
@@ -18,6 +19,7 @@ function App() {
         <Intro />
         <About   />
         <Skills  />
+        <Notification />
         <Projects  />
         <Contact  />
         <Footer/>

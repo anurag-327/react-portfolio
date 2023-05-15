@@ -17,7 +17,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 // import resume from "../assets/projectimages/Resume_2023.pdf"
 const Intro = () => {
   return (
-    <div className='relative top-16  h-auto min-h-[70vh] sm:h-auto sm:bg-contain   overflow-hidden p-2 bg-cover  bg-[url("./assets/vector3.svg")]   sm:bg-[url("./assets/vector1.svg")]  bg-no-repeat  '>
+    <div className='relative top-20  h-auto min-h-[70vh] sm:h-auto sm:bg-contain   overflow-hidden p-2 bg-cover  bg-[url("./assets/vector3.svg")]   sm:bg-[url("./assets/vector1.svg")]  bg-no-repeat  '>
     <div className='  sm:flex-col  flex justify-center items-center  '>
       <div className='w-[50%]  sm:w-[100%] py-6 flex flex-col gap-5 justify-center items-center '>
         <div className='text-2xl  flex flex-col gap-2 font-bold font-poppins text-center'>
