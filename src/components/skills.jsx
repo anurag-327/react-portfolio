@@ -28,6 +28,18 @@ const Skills = () => {
         "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
     },
     {
+        "name": "NextJS",
+        "icon": "https://cdn.icon-icons.com/icons2/2389/PNG/512/next_js_logo_icon_145038.png"
+    },
+    {
+        "name": "Appwrite",
+        "icon": "https://seeklogo.com/images/A/appwrite-logo-D33B39992A-seeklogo.com.png"
+    },
+    {
+        "name": "Pocketbase",
+        "icon": "https://seeklogo.com/images/P/pocketbase-logo-CA73994F09-seeklogo.com.png"
+    },
+    {
         "name": "MongoDB",
         "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
     },
