@@ -11,6 +11,7 @@ import portfolio  from "../assets/projectimages/portfolio.png"
 import netflix  from "../assets/projectimages/netflix.png"
 import quicksign from "../assets/projectimages/quicksign.png"
 import imghost from "../assets/projectimages/imghost.png"
+import hackfinder from "../assets/projectimages/hackfinder.png"
 const Projects = () => {
     function scrollleft()
     {
@@ -25,6 +26,15 @@ const Projects = () => {
     const projects=[
         {
             id:1,
+            name:"Hack Finder",
+            description:`Discover, connect, and innovate with HackFinder, your ultimate platform for finding and participating in hackathons worldwide`,
+            toolsused:"Next JS, Tailwind CSS, supabase",
+            image:hackfinder,
+            code:"https://github.com/anurag-327/hackfinder",
+            link:"https://hackfinder.vercel.app/"
+        },
+        {
+            id:2,
             name:"Quick Sign",
             description:"OAuth for hassle free signups across multiple platforms",
             toolsused:"React, Express js, Node Js, MongoDB",
@@ -33,7 +43,7 @@ const Projects = () => {
             link:"https://quick-sign.vercel.app"
         },
         {
-            id:2,
+            id:3,
             name:"Password Manager",
             description:"Password Manager lets user save their passwords securely. ",
             toolsused:"React, Express js, Node Js, MongoDB",
@@ -42,7 +52,7 @@ const Projects = () => {
             link:"https://my-vault-pm.vercel.app"
         },
         {
-            id:33,
+            id:4,
             name:"ImgHost",
             description:"ImgHost is a image hoisting platform that provides user links to access the images",
             toolsused:"Express js, Node Js, MongoDB, Multer, EJS",
@@ -51,7 +61,7 @@ const Projects = () => {
             link:""
         },
         {
-            id:3,
+            id:5,
             name:"CHAT APP",
             description:"Real time One to One Chat app.",
             toolsused:"React, Express js, Node Js, MongoDB",
@@ -60,7 +70,7 @@ const Projects = () => {
             link:""
         },
         {
-            id:4,
+            id:6,
             name:"E-Commerce Website",
             description:"E-Commmerce Website built On React.",
             toolsused:"React, Express js, Node Js, MongoDB",
@@ -69,7 +79,7 @@ const Projects = () => {
             link:""
         },
         {
-            id:5,
+            id:7,
             name:"Codemon",
             description:"Codemon is a web project that helps user compile their code and use platform to solve DSA Problems. ",
             toolsused:"HTML, CSS, JS, EJS, Express js, MongoDB",
@@ -87,7 +97,7 @@ const Projects = () => {
             link:""
         },
         {
-            id:7,
+            id:8,
             name:"Google Keep Notes",
             description:"This project is a clone of Google keep notes that gives user flexibility of adding, deleting, updating and restoring deleted notes.",
             toolsused:"HTML, CSS, JS, EJS, Express js, MongoDB",
@@ -96,7 +106,7 @@ const Projects = () => {
             link:""
         },
         {
-            id:8,
+            id:9,
             name:"My Portfolio site",
             description:"My Portfolio website containing details of my Skils, Projects and Educational Details",
             toolsused:"HTML, CSS, JS",
@@ -105,7 +115,7 @@ const Projects = () => {
             link:"https://portfolio-anurag-sri.netlify.app"
         },
         {
-            id:9,
+            id:10,
             name:"Netflix UI Clone",
             description:"clone of Netflix's UI",
             toolsused:"HTML, CSS, JS",
