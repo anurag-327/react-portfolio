@@ -37,7 +37,7 @@ const Intro = () => {
            
         </div>
         <div className='flex gap-5 '>
-          <a href="https://drive.google.com/file/d/1xjz2C-QAN6phJuwUHzObr5yQYj3fDHHn/view?usp=sharing" target="blank" className=' p-2 bg-orange-400 text-white text-xl border-2 rounded-lg shadow-md shadow-gray-400 border-gray-600'><i className="fa-solid text-black mr-2 fa-file"></i>My Resume</a>
+          <a href="https://drive.google.com/file/d/1r0aS6mOnpbjtYLTyTYzaFBS6hUoze2l4/view?usp=sharing" target="blank" className=' p-2 bg-orange-400 text-white text-xl border-2 rounded-lg shadow-md shadow-gray-400 border-gray-600'><i className="fa-solid text-black mr-2 fa-file"></i>My Resume</a>
           {/* <button className=' p-1 text-xl border-2 rounded-lg shadow-md shadow-gray-400 border-gray-600'>About Me</button> */}
         </div>
         

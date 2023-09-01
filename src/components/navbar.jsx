@@ -51,7 +51,7 @@ function Navbar({},ref) {
                     <li onClick={() =>document.getElementById('about').scrollIntoView({ behavior: "smooth" })} className='hover:text-orange-600 cursor-pointer'>About Me</li>
                     <li onClick={() =>document.getElementById('projects').scrollIntoView({ behavior: "smooth" })} className='hover:text-orange-600 cursor-pointer'>Projects</li>
                     <li onClick={() =>document.getElementById('skills').scrollIntoView({ behavior: "smooth" })} className='hover:text-orange-600 cursor-pointer'>Skills</li>
-                    <li  className='hover:text-orange-600 cursor-pointer'><a href="https://drive.google.com/file/d/1xjz2C-QAN6phJuwUHzObr5yQYj3fDHHn/view?usp=sharing" download target="blank" ><i className="fa-regular mr-1 fa-file"></i>Resume</a></li>
+                    <li  className='hover:text-orange-600 cursor-pointer'><a href="https://drive.google.com/file/d/1r0aS6mOnpbjtYLTyTYzaFBS6hUoze2l4/view?usp=sharing" download target="blank" ><i className="fa-regular mr-1 fa-file"></i>Resume</a></li>
                 </ul>
         </div>
         
