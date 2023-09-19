@@ -45,7 +45,7 @@ const Projects = () => {
         {
             id:3,
             name:"Password Manager",
-            description:"Password Manager lets user save their passwords securely. ",
+            description:"Password Manager lets user organise their passwords securely. ",
             toolsused:"React, Express js, Node Js, MongoDB",
             image:passwordmanager,
             code:"https://github.com/anurag-327/PasswordManager",
